@@ -1,10 +1,24 @@
+import 'package:Remainder/Screens/homeScreen.dart';
 import 'package:flutter/material.dart';
+import 'package:another_flutter_splash_screen/another_flutter_splash_screen.dart';
 
 
 class SpalshScreen extends StatelessWidget {
   const SpalshScreen({super.key});
+  
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: MediaQuery.sizeOf(context).height,
+      width: MediaQuery.sizeOf(context).width,
+      decoration:const BoxDecoration(borderRadius:BorderRadius.all(Radius.circular(20)),
+      ),
+    child: FlutterSplashScreen.scale(animationCurve: Curves.easeInOutCirc,gradient: RadialGradient(colors: [const Color.fromARGB(255, 255, 204, 136), Color.fromRGBO(255, 107, 0, 1)],center: Alignment.center),childWidget: SizedBox(child: Image.asset("images/Minutes1.png"),),duration: Duration(milliseconds: 4000),animationDuration: Duration(milliseconds: 2000) ,onAnimationEnd: ()=>debugPrint("on Scale End"),nextScreen: HomeScreen(),),);
+    
+  }
 
-          @override
+
+        /*  @override
           Widget build(BuildContext context) {
         
             return Container(
@@ -45,6 +59,6 @@ class SpalshScreen extends StatelessWidget {
         ),
       )
     );
-          }
+          }*/
         }
         

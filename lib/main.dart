@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:remainder_app/USP/splashscreen.dart';
+import 'package:Remainder/USP/splashscreen.dart';
 
 void main() {
   runApp(const MyApp());
