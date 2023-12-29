@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1001062719655",
+    "project_id": "flutternotesremainder",
+    "storage_bucket": "flutternotesremainder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001062719655:android:1229ed8f444e73215ffb82",
+        "android_client_info": {
+          "package_name": "com.example.remainder_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjj2xZQkp3oECLlXYIXPiB81jvvcXkDD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
